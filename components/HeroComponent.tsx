@@ -1,7 +1,7 @@
 import Image from "next/image";
 import developerSvg from "public/image/developer.svg";
 
-export const HeroComponent = () => {
+const HeroComponent = () => {
   return (
     <section className="container grid lg:grid-cols-12 gap-12 px-8 mx-auto overflow-hidden">
       <div className="h-full grid lg:col-span-6 items-center">
@@ -30,3 +30,5 @@ export const HeroComponent = () => {
     </section>
   );
 };
+
+export default HeroComponent;
