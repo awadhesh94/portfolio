@@ -26,3 +26,9 @@
   font-family: "OutfitBold";
   src: url("../public/fonts/Outfit-Bold.ttf") format("truetype");
 }
+
+@layer base {
+  .brand-body {
+    @apply bg-brand-coal text-brand-biege font-brandRegular;
+  }
+}

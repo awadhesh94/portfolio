@@ -2,14 +2,15 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1536px",
     },
     colors: {
       "gray-light": "#1b1d23",
@@ -29,8 +30,8 @@ module.exports = {
       "brand-white": "#fff",
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ["Graphik", "sans-serif"],
+      serif: ["Merriweather", "serif"],
       brandHeading: ["PaytoneOne", "sans-serif", "serif"],
       brandThin: ["OutfitThin", "sans-serif", "serif"],
       brandRegular: ["OutfitRegular", "sans-serif", "serif"],
@@ -40,13 +41,13 @@ module.exports = {
     },
     extend: {
       spacing: {
-        '128': '32rem',
-        '144': '36rem',
+        128: "32rem",
+        144: "36rem",
       },
       borderRadius: {
-        '4xl': '2rem',
-      }
-    }
+        "4xl": "2rem",
+      },
+    },
   },
   plugins: [],
-}
+};

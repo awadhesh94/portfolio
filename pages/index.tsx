@@ -1,6 +1,13 @@
+import { HeroComponent } from "@/src/components/HeroComponent";
+
 const Home = () => {
-  return <div className="font-brandHeading text-brand-coal">
-    Wellcome
-  </div>
-}
+  return (
+    <div className="h-screen brand-body">
+      <main className="pt-16">
+        <HeroComponent />
+      </main>
+    </div>
+  );
+};
+
 export default Home;
